@@ -1,0 +1,12 @@
+/*
+Theme Name:     Big Bang WP Child
+Theme URI:      http://milagrocleaning.com/
+Description:    Child theme for the Big Bang WP
+Author:         Luis Gonzalez
+Author URI:     http://luisogonzalez.com
+Template:       bigbangwp                            
+Version:        0.1.0
+*/
+
+@import url("../bigbangwp/style.css");
+
