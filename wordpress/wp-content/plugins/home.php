@@ -9,8 +9,8 @@ Author URI: http://www.luisogonzalez.com
 License: GPL2
 */
 
-add_action( 'init', 'create_post_type' );
-function create_post_type() {
+add_action( 'init', 'lg_create_post_type' );
+function lg_create_post_type() {
 	register_post_type( 'Home_Cleaning',
 		array(
 			'labels' => array(
