@@ -8,7 +8,7 @@ Template:       bigbangwp
 Version:        0.1.0
 */
 
-@import url("../bigbangwp/style.css");
+@import url("../bigbangwp/css/style.css");
 
 input.submit, input.submit:focus, input.submit:active {
 	background: #5a9333;
