@@ -234,7 +234,12 @@ jQuery(document).ready(function($){
 if (get_post_meta(get_the_ID(), BRANKIC_VAR_PREFIX."add_class_title", true) != "no")
 {
 ?>
-
+<script type='text/javascript'>
+jQuery(document).ready(function($){
+    $(".only_contact h1, .only_contact h2, .only_contact h3, .only_contact h4, .only_contact h5, .only_contact h6").addClass("title");
+})    
+    
+</script>
 <?php
 } 
 
