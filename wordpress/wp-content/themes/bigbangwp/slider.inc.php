@@ -235,17 +235,7 @@
 /***************************************************
     ADDITIONAL CODE FOR PAGE SLIDER
 ***************************************************/
-jQuery(document).ready(function($){
-        $('#index-slider').flexslider({
-        animation: "fade",  
-        slideDirection: "horizontal",  
-        slideshow: true,              
-        slideshowSpeed: 6500,      
-        animationDuration: 500,
-        directionNav: true, 
-        controlNav: false  
-    });
-});
+
 
 
 /***************************************************
