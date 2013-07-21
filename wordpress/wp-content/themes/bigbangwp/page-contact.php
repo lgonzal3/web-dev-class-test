@@ -193,7 +193,7 @@ jQuery(document).ready(function($){
                         var formInput = $(this).serialize();
                         
                         $("li.submit-button").slideUp();
-                        $("form#contact-form").after('<div class="contact-success"><strong><?php _e('THANK YOU!', BRANKIC_THEME_SHORT); ?></strong><p><?php _e('Your email was successfully sent. We will contact you as soon as possible.', BRANKIC_THEME_SHORT); ?></p></div>');
+                        $("form#contact-form").after('<div class="contact-success"><strong><?php _e('THANK YOU!', BRANKIC_THEME_SHORT); ?></strong><p><?php _e('Your message was successfully sent to our inbox. Milagro Cleaning will contact you as soon as possible w/ a response.', BRANKIC_THEME_SHORT); ?></p></div>');
                         
                         $.post($(this).attr('action'),formInput);
                         hasError = false;
@@ -234,12 +234,7 @@ jQuery(document).ready(function($){
 if (get_post_meta(get_the_ID(), BRANKIC_VAR_PREFIX."add_class_title", true) != "no")
 {
 ?>
-<script type='text/javascript'>
-jQuery(document).ready(function($){
-    $(".only_contact h1, .only_contact h2, .only_contact h3, .only_contact h4, .only_contact h5, .only_contact h6").addClass("title");
-})    
-    
-</script>
+
 <?php
 } 
 
