@@ -61,10 +61,16 @@ if (count($all_sidebars["Footer_1st_box"]) > 0 || count($all_sidebars["Footer_2n
                 <div id="footer-bottom" class="clear">
                             
                     <div class="one-half">
+                      <div id="text-3" class="widget_text">
+                        <div class="textwidget">Copyright 2013 Milagro Cleaning. All rights reserved.</div>
+                      </div>  
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer_left") ) : endif;  ?>
                     </div><!--END ONE-HALF-->    
                             
-                    <div class="one-half text-align-right last">            
+                    <div class="one-half text-align-right last">
+                      <div id="text-4" class="widget_text">
+                        <div class="textwidget">Website created by <a href="http://www.luisogonzalez.com">Luis O Gonzalez Jr.</div>
+                      </div>           
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer_right") ) : endif;  ?>
                     </div><!--END ONE-HALF LAST-->
                     
