@@ -445,7 +445,59 @@ margin-top: -59px;
 /*--------------------------------------------------
 						 FOOTER
 ---------------------------------------------------*/
-
+#footer {
+	color: #838383;
+	font-size: 11px;
+	float: left;
+	margin-top: 50px;
+}
+#footer a {
+	color: #838383;
+	font-weight: bold;
+}
+#footer a:hover {
+}
+#footer h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 380;
+	color: #fff;
+	display: block;
+}
+#footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#footer ul li {
+	margin-bottom:15px;
+}
+#footer ul li .date {
+	font: normal 11px/20px Helvetica,Arial,sans-serif;
+    display: block;
+}
+#footer-content {
+	width: 960px;
+	margin: 0 0 0 -30px;
+	padding: 0 30px;
+	background-color: #505050;
+}
+#footer-bottom, #footer-top {
+	padding: 35px 0;
+	overflow: hidden;
+	position: relative;
+}
+#footer-bottom {
+	background-color: #333;
+	font-size: 11px;
+	/*border-top: 1px dotted #777;*/
+	padding: 25px 25px 18px 25px;
+}
+#footer-bottom p {
+	margin-bottom: 0;
+}
+#footer-bottom a {
+}
 /*--------------------------------------------------
 				      COLUMNS
 ---------------------------------------------------*/
@@ -587,7 +639,7 @@ div.arrow {
 }
 .skills-graph li strong {
 	margin-left: 5px;
-	color: #444;
+	color: #505050;
 }
 .skills-graph li span {
 	height: 13px;
@@ -639,7 +691,7 @@ div.arrow {
 	color: #FFFFFF;
 }
 .services div:hover a {
-	background-color:#444; 
+	background-color:#505050; 
 }
 .services img, .services h2 {
 	display: block;
@@ -684,7 +736,7 @@ div.arrow {
 	text-transform:uppercase;
 }
 .button:hover {
-	background-color: #444;
+	background-color: #505050;
 }
 .small {
 	padding:0 6px;	
@@ -704,7 +756,7 @@ div.arrow {
 	-webkit-border-radius:20px;
 	border-radius:20px;
 }
-.grey { background-color:#444; }
+.grey { background-color:#505050; }
 .yellow { background-color:#FEEB43; color: #707070; }
 .orange { background-color:#f96e5b; }
 .green { background-color:#78d18b; }
@@ -724,7 +776,7 @@ div.arrow {
 	padding: 0 2px;
 }
 .highlight2 {
-	background-color: #444;
+	background-color: #505050;
 	color: #FFFFFF;
 	padding: 0 2px;
 }
@@ -738,12 +790,12 @@ div.arrow {
 	float: left;
 	font-size: 53px;
 	line-height: 50px;
-	color: #444;
+	color: #505050;
 	margin: 0 8px 0 0;
 	font-weight: bold;
 }
 .dropcap2 {
-    background-color: #444;
+    background-color: #505050;
     border-radius: 2px 2px 2px 2px;
     color: #FFFFFF;
     display: block;
@@ -756,7 +808,7 @@ div.arrow {
     width: 44px;
 }
 .dropcap3 {
-    background-color: #444;
+    background-color: #505050;
     border-radius: 55px 55px 55px 55px;
     color: #FFFFFF;
     display: block;
@@ -813,7 +865,7 @@ div.arrow {
 	-moz-border-radius: 2px;
 	-webkit-border-radius:2px;
 	border-radius:2px;
-	background-color: #444;
+	background-color: #505050;
 	color: #fff;
 }
 /*--------------------------------------------------
@@ -935,12 +987,12 @@ div.arrow {
 	color: #fff;
 }
 .item-info-overlay h3.title a:hover {
-	color: #444;
+	color: #505050;
 }
 .item-info h4, .item-info-overlay h4 {
 	font-size:11px;
 	line-height: 14px;
-	color: #444;
+	color: #505050;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
@@ -1159,10 +1211,10 @@ div.arrow {
 	border-radius:2px;
 }
 .filterable li a:hover {
-	color: #444;
+	color: #505050;
 }
 .filterable li.current a {
-	color:#444;
+	color:#505050;
 }
 .filterable li span {
 	font-size: 11px;
@@ -1181,7 +1233,7 @@ ul.item-nav {
 ul.item-nav li {
 	float: left;
 	margin-left: 1px;
-	background: #444;
+	background: #505050;
 	-webkit-transition:all 0.14s ease 0s; 
 	-moz-transition:all 0.14s ease 0s; 
 	-o-transition:all 0.14s ease 0s; 
