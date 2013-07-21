@@ -240,7 +240,7 @@ jQuery(document).ready(function($){
         animation: "fade",  
         slideDirection: "horizontal",  
         slideshow: true,              
-        slideshowSpeed: 3500,      
+        slideshowSpeed: 6500,      
         animationDuration: 500,
         directionNav: true, 
         controlNav: false  
