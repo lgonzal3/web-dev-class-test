@@ -195,7 +195,7 @@ function dump(arr,level) {
 											  img_title = shot.caption.text;
 											  }
 											  var image = $('<img/>').attr({src: img_src, alt: img_title});
-											  var url = $('<a/>').attr({href: img_url, target: '_blank', title: img_title});
+											  var url = $('<a/>').attr({href: img_url, target: '_top', title: img_title});
 											  var url2 = $(url).append(image);
 											  var li = $('<li/>').append(url2);
 											  $("ul", obj).append(li);
